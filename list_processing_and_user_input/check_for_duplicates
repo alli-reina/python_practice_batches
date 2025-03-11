@@ -1,0 +1,7 @@
+# Program: Check if the number is unique or duplicate
+# This program asks the user to input a number and checks if it has already been entered
+# Create an empty list to store numbers
+# Input number from user
+# If already in the list, it's a duplicate
+# If not in the list, it's unique
+# Add to list if unique
