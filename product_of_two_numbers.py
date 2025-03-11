@@ -6,3 +6,5 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 # Calculate the product of the two numbers and print the result
+product = num1 * num2
+print("Product:", product)
