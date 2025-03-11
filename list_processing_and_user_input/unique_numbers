@@ -5,5 +5,10 @@
 numbers = []
 
 # Ask user to input 10 numbers
+for i in range(10):
+    num = int(input("Enter a number: "))  # Input number from the user
+    if num not in numbers:  # Only add if not already in the list
+        numbers.append(num)
+
 # Remove duplicates by converting the list to a set, then back to a list
 # Display unique numbers
