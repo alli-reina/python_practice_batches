@@ -7,3 +7,5 @@ num1 = int(input("Enter 1st number: "))
 num2 = int(input("Enter 2nd number: "))
 
 # Compare the two numbers and print the result
+if num1 == num2:
+    print("Equal")
