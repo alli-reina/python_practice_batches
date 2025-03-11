@@ -5,5 +5,9 @@
 numbers = []
 
 # Loop to get 10 numbers from the user
-# Only add the first occurrence
+for i in range(10):
+    num = int(input("Enter a number: "))  # Input number from the user
+    if num not in numbers:  # Only add the first occurrence
+        numbers.append(num)
+
 # Display the numbers with first occurrences only
