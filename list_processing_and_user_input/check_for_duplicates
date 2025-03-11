@@ -6,3 +6,8 @@ numbers = []
 
 while True:
     num = int(input("Enter a number (or any non-number to stop): "))  # Input number from user
+    if num in numbers:
+        print("Duplicate")  # If already in the list, it's a duplicate
+    else:
+        print("Unique")  # If not in the list, it's unique
+        numbers.append(num)  # Add to list if unique
