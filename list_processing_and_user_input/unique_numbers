@@ -1,0 +1,6 @@
+# Program: Display all numbers that don't have duplicates
+# This program asks the user to input 10 numbers and displays only unique numbers.
+# Initialize an empty list to store numbers
+# Ask user to input 10 numbers
+# Remove duplicates by converting the list to a set, then back to a list
+# Display unique numbers
