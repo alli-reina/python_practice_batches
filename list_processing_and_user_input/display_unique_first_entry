@@ -1,6 +1,9 @@
 # Program: Display only the first occurrence of numbers
 # This program asks the user to input 10 numbers and displays only the first occurrence of each
+
 # Create an empty list to store numbers
+numbers = []
+
 # Loop to get 10 numbers from the user
 # Only add the first occurrence
 # Display the numbers with first occurrences only
