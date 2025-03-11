@@ -4,7 +4,5 @@
 # Create an empty list to store numbers
 numbers = []
 
-# Input number from user
-# If already in the list, it's a duplicate
-# If not in the list, it's unique
-# Add to list if unique
+while True:
+    num = int(input("Enter a number (or any non-number to stop): "))  # Input number from user
