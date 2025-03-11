@@ -11,3 +11,4 @@ for i in range(10):
         numbers.append(num)
 
 # Display the numbers with first occurrences only
+print("Numbers (first occurrence):", numbers)
