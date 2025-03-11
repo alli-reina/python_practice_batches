@@ -13,3 +13,4 @@ for i in range(10):
         odd_count += 1
 
 # Print the total count of odd numbers
+print("Odd numbers:", odd_count)
