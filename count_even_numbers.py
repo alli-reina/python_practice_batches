@@ -8,8 +8,9 @@ even_count = 0
 for i in range(10):  # Loop to input 10 numbers
     num = int(input(f"Enter number {i + 1}: "))
         
-    # Check if the number is even
+    # Check if the numbers are even
     if num % 2 == 0:
         even_count += 1  # Increase the even count if the number is even
         
 # Print the total number of even numbers
+print("Even numbers:", even_count)
