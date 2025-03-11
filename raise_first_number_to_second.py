@@ -6,5 +6,7 @@ num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 
 # Calculate num1 raised to the power of num2
+result = num1 ** num2
+
 # Print the result
 
