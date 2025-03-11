@@ -10,5 +10,5 @@ for i in range(10):
     if num not in numbers:  # Only add if not already in the list
         numbers.append(num)
 
-# Remove duplicates by converting the list to a set, then back to a list
-# Display unique numbers
+# Display the unique numbers
+print("Unique numbers:", numbers)
