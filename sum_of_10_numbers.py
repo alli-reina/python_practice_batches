@@ -10,3 +10,4 @@ for i in range(10):
     total_sum += num
     
 # Print the total sum
+print("Sum:", total_sum)
