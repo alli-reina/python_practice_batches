@@ -5,5 +5,9 @@
 num1 = int(input("Enter the first number: "))
 
 # Loop to subtract all remaining numbers from num1
+for i in range(9):  # Loop for the remaining 9 numbers
+    num = int(input(f"Enter number {i + 2}: "))
+    num1 -= num  # Subtract the entered number from num1
+
 # Print the final result
 
