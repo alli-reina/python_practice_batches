@@ -5,3 +5,5 @@
 for i in range(0, 101):
     
 # Print the number if it doesn't end in zero
+    if i % 10 != 0:
+        print(i)
