@@ -5,5 +5,11 @@
 odd_count = 0
 
 # Loop through 10 times to get the numbers from the user
-# Check if the number is odd
+for i in range(10):
+    num = int(input(f"Enter number {i+1}: "))
+
+    # Check if the number is odd
+    if num % 2 != 0:
+        odd_count += 1
+
 # Print the total count of odd numbers
