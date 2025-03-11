@@ -10,4 +10,4 @@ for i in range(9):  # Loop for the remaining 9 numbers
     num1 -= num  # Subtract the entered number from num1
 
 # Print the final result
-
+print("Difference:", num1)
