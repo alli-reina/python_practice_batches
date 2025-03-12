@@ -7,7 +7,9 @@ numbers = []
 while True:
     num = input("Enter a number (or any non-number to stop): ")  # Ask for input
 
-# Check if input is a number
-# Add the number to the list
-# Exit the loop if the input is not a number
+if num.isdigit():  # Check if input is a number
+        numbers.append(int(num)  # Add the number to the list
+    else:
+        break  # Exit the loop if the input is not a number
+
 # Show the lowest number
