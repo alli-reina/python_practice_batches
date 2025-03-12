@@ -10,7 +10,7 @@ while True:
     if num.isdigit():  # Check if input is a valid number
         numbers.append(int(num))  # Add number to list
     else:
-        break  # This will stop the loop if the input is invalid
+        break  # Stop the loop if the input is invalid
 
 # Find the number with the most duplicates
 most_duplicate_number = None
