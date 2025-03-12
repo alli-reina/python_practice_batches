@@ -24,3 +24,4 @@ for num in numbers:
         max_count = count  # Update the count of the most duplicates
 
 # Display the result
+print("The number with the most duplicates is:", most_duplicate_number)
