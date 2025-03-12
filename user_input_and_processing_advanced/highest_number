@@ -4,7 +4,7 @@
 # Create an empty list to store numbers
 numbers = []
 
-# Ask the user to input numbers
+# Ask the user for numbers until they enter an invalid input
 while True:
     num = input("Enter a number (or press enter to stop): ")
     if num.isdigit():  # Check if input is a valid number
@@ -14,6 +14,7 @@ while True:
 
 # Finding the highest number
 if numbers:  # Check if the list is not empty
-    highest_number = max(numbers)  # Find the maximum number in the list
-
-# Print the highest number
+    highest_number = max(numbers)  # Find the highest number in the list
+    print("The highest number entered is:", highest_number)
+else:
+    print("No numbers were entered.")
