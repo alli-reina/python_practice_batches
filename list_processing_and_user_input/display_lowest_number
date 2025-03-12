@@ -1,0 +1,9 @@
+# Program: Display the lowest number entered
+# This program asks the user to input numbers and displays the lowest number when input stops.
+
+# Create an empty list to store numbers
+# Ask for input
+# Check if input is a number
+# Add the number to the list
+# Exit the loop if the input is not a number
+# Show the lowest number
