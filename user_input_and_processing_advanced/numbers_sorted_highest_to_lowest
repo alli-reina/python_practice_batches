@@ -2,6 +2,8 @@
 # This program asks the user to input numbers and displays them from highest to lowest.
 
 # Create an empty list to store numbers
+numbers = []
+
 # Ask the user to input numbers until they enter something that's not a number
 # Check if the input is a number
 # Stop asking for numbers when the input is not a number
