@@ -8,13 +8,13 @@ numbers = []
 while True:
     num = input("Enter a number (or leave blank and press enter to stop): ")
     if num.isdigit():  # Check if the input is a number
-        numbers.append(int(num))  # Add the number to the list
+        numbers.append(int(num))
     else:
         break  # Stop asking for numbers when the input is not a number
 
 # If numbers were entered, sort them from highest to lowest and display
 if len(numbers) > 0:  # Check if the list is not empty
-    numbers.sort(reverse=True)  # Sort the list from highest to lowest
+    numbers.sort(reverse=True)  # Sort the list
     print("Numbers from highest to lowest:", numbers)
 else:
     print("No numbers were entered.")
