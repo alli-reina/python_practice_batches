@@ -17,4 +17,9 @@ for i in range(10):
 # Create an empty list to store duplicates
 duplicates = []
 
+# Find numbers that have duplicates
+for num in numbers:
+    if numbers.count(num) > 1 and num not in duplicates:
+        duplicates.append(num)
+
 # Print the list of duplicate numbers
