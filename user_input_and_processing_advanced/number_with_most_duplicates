@@ -17,5 +17,10 @@ most_duplicate_number = None
 max_count = 0
 
 # Count occurrences of each number
-# Update the count of the most duplicates
+for num in numbers:
+    count = numbers.count(num)  # Count how many times this number appears
+    if count > max_count:
+        most_duplicate_number = num  # Update the number with most duplicates
+        max_count = count  # Update the count of the most duplicates
+
 # Display the result
