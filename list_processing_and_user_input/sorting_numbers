@@ -1,0 +1,8 @@
+# Program: Sort and display numbers in ascending order
+# This program asks the user to input numbers and displays them in ascending order
+
+# Create an empty list to store numbers
+# Input number from user
+# Add the number to the list
+# Stop the loop if the user inputs a non-number
+# Sort and display the numbers
