@@ -13,5 +13,8 @@ while True:
         break  # Stop asking for numbers when the input is not a number
 
 # If numbers were entered, sort them from highest to lowest and display
-# Sort the list from highest to lowest
-# Print the ascending order
+if len(numbers) > 0:  # Check if the list is not empty
+    numbers.sort(reverse=True)  # Sort the list from highest to lowest
+    print("Numbers from highest to lowest:", numbers)
+else:
+    print("No numbers were entered.")
