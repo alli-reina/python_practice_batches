@@ -12,5 +12,8 @@ while True:
     else:
         break  # Stop asking if the input is invalid
 
-# Find the highest number
+# Finding the highest number
+if numbers:  # Check if the list is not empty
+    highest_number = max(numbers)  # Find the maximum number in the list
+
 # Print the highest number
