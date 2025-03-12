@@ -9,10 +9,10 @@ for i in range(10):
     while True:
         num = input("Enter a number: ")
         if num.isdigit():  # Check if input is a number
-            numbers.append(int(num))  # Add number to list
+            numbers.append(int(num))
             break
         else:
-            print("Invalid input! Please enter a valid number.")
+            print("Please enter a valid number.")
 
 # Create an empty list to store duplicates
 duplicates = []
