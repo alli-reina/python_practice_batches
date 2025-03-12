@@ -5,6 +5,8 @@
 numbers = []
 
 # Input number from user
+num = int(input("Enter a number (or any non-number to stop): "))
+
 # Add the number to the list
 # Stop the loop if the user inputs a non-number
 # Sort and display the numbers
