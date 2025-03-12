@@ -4,7 +4,7 @@
 # Create an empty list to store numbers
 numbers = []
 
-# Aks the user to input numbers
+# Ask the user to input numbers
 while True:
     num = input("Enter a number (or press enter to stop): ")
     if num.isdigit():  # Check if input is a valid number
