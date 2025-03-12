@@ -5,8 +5,13 @@
 numbers = []
 
 # Ask the user to input numbers until they enter something that's not a number
-# Check if the input is a number
-# Stop asking for numbers when the input is not a number
+while True:
+    num = input("Enter a number (or leave blank and press enter to stop): ")
+    if num.isdigit():  # Check if the input is a number
+        numbers.append(int(num))  # Add the number to the list
+    else:
+        break  # Stop asking for numbers when the input is not a number
+
 # If numbers were entered, sort them from highest to lowest and display
 # Sort the list from highest to lowest
 # Print the ascending order
