@@ -2,6 +2,8 @@
 # This program asks the user to input numbers and displays the number with the most duplicates
 
 # Create an empty list to store numbers
+numbers = []
+
 # Ask the user for numbers until they enter an invalid input
 # Check if input is a valid number stop asking if the input is invalid
 # Add number to list
