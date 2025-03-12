@@ -4,9 +4,11 @@
 # Create an empty list to store numbers
 numbers = []
 
-# Input number from user
-num = int(input("Enter a number (or any non-number to stop): "))
+while True:
+    try:
+        num = int(input("Enter a number (or any non-number to stop): "))  # Input number from user
+        numbers.append(num)  # Add the number to the list
+    except ValueError:
+        break  # Stop the loop if the user inputs a non-number
 
-# Add the number to the list
-# Stop the loop if the user inputs a non-number
 # Sort and display the numbers
