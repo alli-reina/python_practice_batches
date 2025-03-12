@@ -13,3 +13,7 @@ if num.isdigit():  # Check if input is a number
         break  # Exit the loop if the input is not a number
 
 # Show the lowest number
+if numbers:
+    print("The lowest number entered is:", min(numbers))
+else:
+    print("No valid numbers entered.")
