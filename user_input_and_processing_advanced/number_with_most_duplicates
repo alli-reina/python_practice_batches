@@ -13,6 +13,9 @@ while True:
         break  # This will stop the loop if the input is invalid
 
 # Find the number with the most duplicates
+most_duplicate_number = None
+max_count = 0
+
 # Count occurrences of each number
 # Update the count of the most duplicates
 # Display the result
