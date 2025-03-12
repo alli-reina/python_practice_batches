@@ -14,4 +14,8 @@ while True:
         break  # Stop asking for numbers when the input is not a number
 
 # Calculate the average
-# Display the average
+if len(numbers) > 0:  # Check if the list is not empty
+    average = sum(numbers) / len(numbers)  # Calculate the average
+    print("The average of the numbers entered is:", average) #Display the average
+else:
+    print("No valid numbers were entered.")  # If no valid numbers were entered
