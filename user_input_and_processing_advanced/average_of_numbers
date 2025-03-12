@@ -8,14 +8,14 @@ numbers = []
 while True:
     num = input("Enter a number (or leave blank and press enter to stop): ")
 
-    if num.isdigit():  # Check if the input is a number
-        numbers.append(int(num))  # Add the number to the list
+    if num.isdigit():  # Check if the input is valid a number
+        numbers.append(int(num))
     else:
         break  # Stop asking for numbers when the input is not a number
 
 # Calculate the average
 if len(numbers) > 0:  # Check if the list is not empty
     average = sum(numbers) / len(numbers)  # Calculate the average
-    print("The average of the numbers entered is:", average) #Display the average
+    print("The average of the numbers entered is:", average) # Display the average
 else:
-    print("No valid numbers were entered.")  # If no valid numbers were entered
+    print("No valid numbers were entered.")
