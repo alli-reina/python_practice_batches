@@ -2,16 +2,14 @@
 # Program: Sort and display numbers in ascending order
 # This program asks the user to input numbers and displays them in ascending order
 
-# Create an empty list to store numbers
 numbers = []
 
 while True:
     try:
-        num = int(input("Enter a number (or any non-number to stop): "))  # Input number from user
-        numbers.append(num)  # Add the number to the list
+        num = int(input("Enter a number (or any non-number to stop): "))
+        numbers.append(num)
     except ValueError:
-        break  # Stop the loop if the user inputs a non-number
+        break
 
-# Sort and display the numbers
 numbers.sort()
 print("Numbers in ascending order:", numbers)
