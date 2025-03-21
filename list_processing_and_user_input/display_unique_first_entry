@@ -1,14 +1,11 @@
 # Program: Display only the first occurrence of numbers
 # This program asks the user to input 10 numbers and displays only the first occurrence of each
 
-# Create an empty list to store numbers
 numbers = []
 
-# Loop to get 10 numbers from the user
 for i in range(10):
-    num = int(input("Enter a number: "))  # Input number from the user
-    if num not in numbers:  # Only add the first occurrence
+    num = int(input("Enter a number: "))  
+    if num not in numbers:
         numbers.append(num)
 
-# Display the numbers with first occurrences only
 print("Numbers (first occurrence):", numbers)
