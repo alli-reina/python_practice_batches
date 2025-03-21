@@ -4,9 +4,13 @@
 numbers = []
 
 while True:
-    num = int(input("Enter a number (or any non-number to stop): "))
-    if num in numbers:
-        print("Duplicate")
-    else:
-        print("Unique")
-        numbers.append(num)
+    try:
+        num = int(input("Enter a number (or any non-number to stop): "))
+        if num in numbers:
+            print("Duplicate")
+        else:
+            print("Unique")
+            numbers.append(num)
+    except ValueError:
+        print("Invalid input. Exiting program.")
+        break
