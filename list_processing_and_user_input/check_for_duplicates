@@ -1,13 +1,12 @@
 # Program: Check if the number is unique or duplicate
 # This program asks the user to input a number and checks if it has already been entered
 
-# Create an empty list to store numbers
 numbers = []
 
 while True:
-    num = int(input("Enter a number (or any non-number to stop): "))  # Input number from user
+    num = int(input("Enter a number (or any non-number to stop): "))
     if num in numbers:
-        print("Duplicate")  # If already in the list, it's a duplicate
+        print("Duplicate")
     else:
-        print("Unique")  # If not in the list, it's unique
-        numbers.append(num)  # Add to list if unique
+        print("Unique")
+        numbers.append(num)
