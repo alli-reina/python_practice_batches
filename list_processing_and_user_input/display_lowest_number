@@ -1,18 +1,15 @@
 # Program: Display the lowest number entered
 # This program asks the user to input numbers and displays the lowest number when input stops.
 
-# Create an empty list to store numbers
 numbers = []
 
 while True:
-    num = input("Enter a number (or any non-number to stop): ")  # Ask for input
-    
-    if num.isdigit():  # Check if input is a number
-        numbers.append(int(num))  # Add the number to the list
+    num = input("Enter a number (or any non-number to stop): ")
+    if num.isdigit():
+        numbers.append(int(num))
     else:
-        break  # Exit the loop if the input is not a number
+        break
 
-# Show the lowest number
 if numbers:
     print("The lowest number entered is:", min(numbers))
 else:
