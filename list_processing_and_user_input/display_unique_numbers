@@ -1,14 +1,15 @@
 # Program: Display all numbers that don't have duplicates
 # This program asks the user to input 10 numbers and displays only unique numbers
 
-# Initialize an empty list to store numbers
-numbers = []
+numbers_list = []  
+unique_numbers = []  
 
-# Ask user to input 10 numbers
-for i in range(10):
-    num = int(input("Enter a number: "))  # Input number from the user
-    if num not in numbers:  # Only add if not already in the list
-        numbers.append(num)
+for _ in range(10):  
+    num = int(input("Enter a number: "))  
+    numbers_list.append(num)  
 
-# Display the unique numbers
-print("Unique numbers:", numbers)
+for num in numbers_list:  
+    if numbers_list.count(num) == 1:  
+        unique_numbers.append(num)  
+
+print("Unique numbers:", unique_numbers)
